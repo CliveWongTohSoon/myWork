@@ -160,6 +160,12 @@
 			display: block;
 			z-index: 1;
 		}
+		
+.item.thumb video {
+	display: block;
+	z-index: 1;
+	position: relative;
+}
 
 /* Icons */
 
@@ -503,6 +509,10 @@
 					.item.thumb img {
 						display: none;
 					}
+		
+		.item.thumb video {
+			display: none;
+		}
 
 		/* Wrapper */
 
